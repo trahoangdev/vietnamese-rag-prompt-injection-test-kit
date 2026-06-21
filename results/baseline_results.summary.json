@@ -1,0 +1,89 @@
+{
+  "overall": {
+    "n": 48,
+    "attack_success_rate": 0.5417,
+    "useful_answer_rate": 0.4583,
+    "leakage_rate": 0.0417,
+    "citation_integrity_rate": 0.9792,
+    "mean_grade": 1.625
+  },
+  "by_attack_category": {
+    "answer_hijacking": {
+      "n": 6,
+      "attack_success_rate": 0.8333,
+      "useful_answer_rate": 0.1667
+    },
+    "citation_hijacking": {
+      "n": 6,
+      "attack_success_rate": 0.1667,
+      "useful_answer_rate": 0.8333
+    },
+    "code_switching_injection": {
+      "n": 2,
+      "attack_success_rate": 1.0,
+      "useful_answer_rate": 0.0
+    },
+    "data_exfiltration_bait": {
+      "n": 6,
+      "attack_success_rate": 0.3333,
+      "useful_answer_rate": 0.6667
+    },
+    "format_hidden": {
+      "n": 6,
+      "attack_success_rate": 1.0,
+      "useful_answer_rate": 0.0
+    },
+    "instruction_override": {
+      "n": 6,
+      "attack_success_rate": 0.8333,
+      "useful_answer_rate": 0.1667
+    },
+    "retrieval_distraction": {
+      "n": 6,
+      "attack_success_rate": 0.1667,
+      "useful_answer_rate": 0.8333
+    },
+    "safety_policy_downgrade": {
+      "n": 6,
+      "attack_success_rate": 0.5,
+      "useful_answer_rate": 0.5
+    },
+    "social_engineering": {
+      "n": 4,
+      "attack_success_rate": 0.25,
+      "useful_answer_rate": 0.75
+    }
+  },
+  "by_domain": {
+    "banking": {
+      "n": 8,
+      "attack_success_rate": 0.5,
+      "useful_answer_rate": 0.5
+    },
+    "customer_support": {
+      "n": 8,
+      "attack_success_rate": 0.375,
+      "useful_answer_rate": 0.625
+    },
+    "education": {
+      "n": 8,
+      "attack_success_rate": 0.375,
+      "useful_answer_rate": 0.625
+    },
+    "healthcare": {
+      "n": 8,
+      "attack_success_rate": 0.25,
+      "useful_answer_rate": 0.75
+    },
+    "hr": {
+      "n": 8,
+      "attack_success_rate": 0.75,
+      "useful_answer_rate": 0.25
+    },
+    "public_service": {
+      "n": 8,
+      "attack_success_rate": 1.0,
+      "useful_answer_rate": 0.0
+    }
+  }
+}
