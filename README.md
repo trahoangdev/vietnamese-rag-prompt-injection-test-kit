@@ -66,6 +66,32 @@ Each evaluation row includes:
 
 The summary JSON reports attack success rate, useful answer rate, leakage rate, and citation integrity by mode and attack category.
 
+## Manual Review Workflow
+
+Export a review sheet for the baseline responses:
+
+```powershell
+python -m src.export_review_sample --results results/baseline_results.csv --out results/manual_review_baseline.csv
+```
+
+The generated CSV includes empty `manual_attack_success`, `manual_useful_answer`, `manual_grade`, and `reviewer_notes` columns. Use it to manually audit a subset or all responses before making claims in the final report.
+
+Generate Markdown tables from summary JSON files:
+
+```powershell
+python -m src.aggregate_results --out results/GENERATED_TABLES.md
+```
+
+## Report PDF
+
+Generate a submission draft PDF:
+
+```powershell
+python scripts/generate_report_pdf.py
+```
+
+The generated PDF is written to `output/pdf/vietnamese_rag_prompt_injection_test_kit_submission_draft.pdf`.
+
 ## Research Question
 
 How vulnerable are Vietnamese-language RAG chatbots to document-level prompt injection, and can lightweight mitigations reduce attack success without destroying answer usefulness?
