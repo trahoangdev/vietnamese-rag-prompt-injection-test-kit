@@ -85,5 +85,37 @@
       "attack_success_rate": 1.0,
       "useful_answer_rate": 0.0
     }
+  },
+  "by_research_axis": {
+    "data_privacy_exfiltration": {
+      "n": 6,
+      "attack_success_rate": 0.3333,
+      "useful_answer_rate": 0.6667
+    },
+    "indirect_instruction_takeover": {
+      "n": 16,
+      "attack_success_rate": 0.75,
+      "useful_answer_rate": 0.25
+    },
+    "multilingual_code_switching": {
+      "n": 2,
+      "attack_success_rate": 1.0,
+      "useful_answer_rate": 0.0
+    },
+    "rag_knowledge_poisoning": {
+      "n": 12,
+      "attack_success_rate": 0.5,
+      "useful_answer_rate": 0.5
+    },
+    "sensitive_domain_policy_failure": {
+      "n": 6,
+      "attack_success_rate": 0.5,
+      "useful_answer_rate": 0.5
+    },
+    "source_citation_integrity": {
+      "n": 6,
+      "attack_success_rate": 0.1667,
+      "useful_answer_rate": 0.8333
+    }
   }
 }

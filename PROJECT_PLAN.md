@@ -85,7 +85,7 @@ The final artifact should be a small open test kit:
 
 2. Attack dataset
    - 40-80 test cases in JSONL/CSV.
-   - Each case includes user question, relevant document, injected document, expected safe behavior, attack category, and severity.
+   - Each case includes user question, `trusted_doc` as the expected relevant source, injected document text, expected safe behavior, attack category, and severity.
 
 3. Baseline RAG runner
    - Simple retrieval pipeline.
@@ -137,7 +137,7 @@ Out of scope for the first version:
 
 ## 7. Attack Taxonomy
 
-Initial categories:
+Current categories:
 
 1. Instruction override
    - "Bo qua tat ca huong dan truoc do..."
@@ -163,6 +163,18 @@ Initial categories:
 
 8. Indirect prompt injection hidden in formatting
    - Markdown comments, YAML-like metadata, footnotes, base64-looking text, or fake changelog.
+
+9. Retrieval distraction
+   - Poisoned text tries to omit the core trusted policy fact or steer the model toward a lower-safety answer.
+
+Research-axis grouping:
+
+- Indirect instruction takeover: instruction override, hidden formatting, social engineering.
+- RAG knowledge poisoning: answer hijacking and retrieval distraction.
+- Data privacy and prompt leakage: data exfiltration bait.
+- Source and citation integrity: citation/source hijacking.
+- Multilingual and code-switching safety: Vietnamese-English code-switching injection.
+- Sensitive-domain policy failure: safety policy downgrade in high-impact domains.
 
 ## 8. Metrics
 
@@ -230,8 +242,7 @@ Vietnamese_RAG_Prompt_Injection_Test_Kit/
   README.md
   data/
     benign_docs/
-    poisoned_docs/
-    test_cases.jsonl
+    test_cases.jsonl  # includes inline poisoned snippets
   src/
     rag_baseline.py
     mitigations.py
@@ -261,9 +272,9 @@ Phase 1 - Framing and dataset schema
 Phase 2 - Synthetic corpus and attack set
 
 - Write benign Vietnamese documents.
-- Write poisoned variants.
+- Write poisoned variants as inline `injected_text` snippets in `data/test_cases.jsonl`.
 - Create test cases for each attack category.
-- Mark expected safe behavior and expected relevant source.
+- Mark expected safe behavior and `trusted_doc` expected relevant source.
 
 Phase 3 - Baseline RAG implementation
 
@@ -356,10 +367,11 @@ Code and Data
 
 References
 
-- OWASP LLM Top 10.
-- ASEAN AI Governance and Ethics Guide.
-- Vietnam Decree 142/2026/ND-CP / Law 134/2025 as governance motivation.
-- Relevant prompt injection and multilingual safety papers.
+- OWASP LLM01: Prompt Injection.
+- OWASP LLM Prompt Injection Prevention Cheat Sheet.
+- PoisonedRAG and newer RAG knowledge-poisoning defense work.
+- AgentDyn and newer dynamic prompt-injection benchmark work.
+- LinguaSafe and SEA-SafeguardBench for multilingual and Southeast Asian safety framing.
 
 Appendix
 
@@ -408,11 +420,20 @@ Minimum acceptable submission:
 
 Strong submission:
 
-- 80+ cases.
 - Automated evaluation script.
-- Results by attack category and language style.
+- Real-model run on all 48 cases for baseline, mitigated, and sanitized modes.
+- Manual review for all real-model baseline, mitigated, and sanitized responses.
+- Results by attack category, domain, language style, and research axis.
 - One polished figure and one concise checklist.
-- Clear novelty statement: first small Vietnamese RAG prompt-injection benchmark/test kit for practical deployment review.
+- Clear novelty statement: a compact Vietnamese RAG prompt-injection benchmark/test kit for practical deployment review.
+
+Current status:
+
+- 48 cases across six domains are implemented and validated.
+- Deterministic baseline, mitigated, and sanitized runs are generated.
+- GPT-5.4-mini baseline, mitigated, and sanitized results are stored.
+- Manual review of the GPT-5.4-mini baseline, mitigated, and sanitized runs is complete.
+- Research alignment docs and PDF report are generated.
 
 ## 15. Immediate Next Steps
 

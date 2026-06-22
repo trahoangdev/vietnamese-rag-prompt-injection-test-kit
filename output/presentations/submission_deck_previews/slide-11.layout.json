@@ -1,0 +1,664 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/2jwo20",
+    "id": "2jwo20",
+    "slide": 11,
+    "layoutId": "28538736-5d21-4358-a673-46026e43ae58",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "9e48650f-9251-44b3-931c-b200018fcd69",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F8FAFC",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "28538736-5d21-4358-a673-46026e43ae58",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "9e48650f-9251-44b3-931c-b200018fcd69",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "9e48650f-9251-44b3-931c-b200018fcd69",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ap4r65wj",
+      "id": "1",
+      "bbox": [
+        72,
+        56,
+        500,
+        26
+      ],
+      "geometry": "rect",
+      "text": "LIMITATIONS AND DUAL-USE",
+      "textPreview": "LIMITATIONS AND DUAL-USE",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#2563EB",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LIMITATIONS AND DUAL-USE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LIMITATIONS AND DUAL-USE",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#2563EB",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LIMITATIONS AND DUAL-USE",
+              "fontSize": 13,
+              "color": "#2563EB",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hgn29gr2",
+      "id": "2",
+      "bbox": [
+        72,
+        90,
+        900,
+        92
+      ],
+      "geometry": "rect",
+      "text": "Limits are explicit, and release is defensive",
+      "textPreview": "Limits are explicit, and release is defensive",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#0F172A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Limits are explicit, and release is defensive"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Limits are explicit, and release is defensive",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#0F172A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Limits are explicit, and release is defensive",
+              "fontSize": 38,
+              "color": "#0F172A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svu9knih",
+      "id": "3",
+      "bbox": [
+        96,
+        166,
+        480,
+        34
+      ],
+      "geometry": "rect",
+      "text": "What this benchmark does not prove",
+      "textPreview": "What this benchmark does not prove",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#0F172A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "What this benchmark does not prove"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What this benchmark does not prove",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#0F172A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "What this benchmark does not prove",
+              "fontSize": 27,
+              "color": "#0F172A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidonyd0",
+      "id": "4",
+      "bbox": [
+        98,
+        220,
+        470,
+        260
+      ],
+      "geometry": "rect",
+      "text": "Synthetic documents and simplified attacks.\nSmall sample size and simple retrieval setup.\nOne model family and one prompt setup in the real-model run.\nNot a live adversarial red-team or production certification.",
+      "textPreview": "Synthetic documents and simplified attacks. | Small sample size and simple retrieval setup. | One model family and one prompt setup in th...",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#334155",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 5,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Synthetic documents and simplified attacks."
+          },
+          {
+            "index": 2,
+            "text": "Small sample size and simple retrieval setup."
+          },
+          {
+            "index": 3,
+            "text": "One model family and one prompt setup in the real-model"
+          },
+          {
+            "index": 4,
+            "text": "run."
+          },
+          {
+            "index": 5,
+            "text": "Not a live adversarial red-team or production certification."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Synthetic documents and simplified attacks.",
+          "bulletCharacter": "-",
+          "marginLeft": 20,
+          "indent": -12,
+          "spaceAfter": 13,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#334155"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Synthetic documents and simplified attacks.",
+              "fontSize": 19,
+              "color": "#334155"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "Small sample size and simple retrieval setup.",
+          "bulletCharacter": "-",
+          "marginLeft": 20,
+          "indent": -12,
+          "spaceAfter": 13,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#334155"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Small sample size and simple retrieval setup.",
+              "fontSize": 19,
+              "color": "#334155"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "One model family and one prompt setup in the real-model run.",
+          "bulletCharacter": "-",
+          "marginLeft": 20,
+          "indent": -12,
+          "spaceAfter": 13,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#334155"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "One model family and one prompt setup in the real-model run.",
+              "fontSize": 19,
+              "color": "#334155"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Not a live adversarial red-team or production certification.",
+          "bulletCharacter": "-",
+          "marginLeft": 20,
+          "indent": -12,
+          "spaceAfter": 13,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#334155"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Not a live adversarial red-team or production certification.",
+              "fontSize": 19,
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a1gvy90j",
+      "id": "5",
+      "bbox": [
+        700,
+        166,
+        420,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Dual-use handling",
+      "textPreview": "Dual-use handling",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#0F172A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Dual-use handling"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Dual-use handling",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#0F172A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Dual-use handling",
+              "fontSize": 27,
+              "color": "#0F172A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hoza1gvy",
+      "id": "6",
+      "bbox": [
+        702,
+        220,
+        454,
+        260
+      ],
+      "geometry": "rect",
+      "text": "No real credentials or personal data.\nNo executable exploit chains or operational fraud steps.\nExamples are safe synthetic cases for authorized evaluation.\nRelease messaging emphasizes defensive testing before launch.",
+      "textPreview": "No real credentials or personal data. | No executable exploit chains or operational fraud steps. | Examples are safe synthetic cases for ...",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#334155",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 6,
+        "lines": [
+          {
+            "index": 1,
+            "text": "No real credentials or personal data."
+          },
+          {
+            "index": 2,
+            "text": "No executable exploit chains or operational fraud steps."
+          },
+          {
+            "index": 3,
+            "text": "Examples are safe synthetic cases for authorized"
+          },
+          {
+            "index": 4,
+            "text": "evaluation."
+          },
+          {
+            "index": 5,
+            "text": "Release messaging emphasizes defensive testing before"
+          },
+          {
+            "index": 6,
+            "text": "launch."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "No real credentials or personal data.",
+          "bulletCharacter": "-",
+          "marginLeft": 20,
+          "indent": -12,
+          "spaceAfter": 13,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#334155"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "No real credentials or personal data.",
+              "fontSize": 19,
+              "color": "#334155"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "text": "No executable exploit chains or operational fraud steps.",
+          "bulletCharacter": "-",
+          "marginLeft": 20,
+          "indent": -12,
+          "spaceAfter": 13,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#334155"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "No executable exploit chains or operational fraud steps.",
+              "fontSize": 19,
+              "color": "#334155"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "text": "Examples are safe synthetic cases for authorized evaluation.",
+          "bulletCharacter": "-",
+          "marginLeft": 20,
+          "indent": -12,
+          "spaceAfter": 13,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#334155"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Examples are safe synthetic cases for authorized evaluation.",
+              "fontSize": 19,
+              "color": "#334155"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "text": "Release messaging emphasizes defensive testing before launch.",
+          "bulletCharacter": "-",
+          "marginLeft": 20,
+          "indent": -12,
+          "spaceAfter": 13,
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#334155"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Release messaging emphasizes defensive testing before launch.",
+              "fontSize": 19,
+              "color": "#334155"
+            }
+          ]
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s36hcrmh",
+      "id": "7",
+      "bbox": [
+        72,
+        636,
+        1136,
+        1.2
+      ],
+      "geometry": "rect",
+      "fillColor": "#E2E8F0",
+      "lineColor": "#E2E8F0",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3m94fu18",
+      "id": "8",
+      "bbox": [
+        1188,
+        664,
+        42,
+        18
+      ],
+      "geometry": "rect",
+      "text": "11",
+      "textPreview": "11",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#94A3B8",
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "11"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "11",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#94A3B8",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "11",
+              "fontSize": 11,
+              "color": "#94A3B8",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
