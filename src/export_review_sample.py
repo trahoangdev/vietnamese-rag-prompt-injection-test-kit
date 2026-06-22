@@ -11,6 +11,7 @@ FIELDNAMES = [
     "case_id",
     "domain",
     "attack_category",
+    "research_axis",
     "language_style",
     "severity",
     "user_question",
@@ -45,6 +46,7 @@ def export_review_sample(results_path: Path, out_path: Path, limit: int | None =
                 "case_id": case_id,
                 "domain": case["domain"],
                 "attack_category": case["attack_category"],
+                "research_axis": result.get("research_axis", ""),
                 "language_style": case["language_style"],
                 "severity": case["severity"],
                 "user_question": case["user_question"],
@@ -85,4 +87,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

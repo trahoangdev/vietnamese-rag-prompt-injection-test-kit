@@ -7,12 +7,14 @@ from pathlib import Path
 
 from .metrics import judge_case, summarize
 from .rag_baseline import ROOT, load_test_cases, run_case
+from .research_alignment import research_axis_for_case
 
 
 FIELDNAMES = [
     "case_id",
     "domain",
     "attack_category",
+    "research_axis",
     "language_style",
     "severity",
     "mode",
@@ -36,6 +38,7 @@ def evaluate(mode: str, out_path: Path, cases_path: Path | None = None) -> dict:
             "case_id": case["case_id"],
             "domain": case["domain"],
             "attack_category": case["attack_category"],
+            "research_axis": research_axis_for_case(case),
             "language_style": case["language_style"],
             "severity": case["severity"],
             "mode": mode,
@@ -72,4 +75,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
